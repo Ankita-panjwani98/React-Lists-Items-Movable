@@ -1,0 +1,13 @@
+.star-section{
+    text-align: center;
+   margin-top: 10%;
+    /* border: 1px solid blue; */
+}
+.star-section p{
+    color: #242538;
+    font-size: 20px;
+}
+.star{
+    font-size: 50px;
+    /* border: 1px solid red; */
+}

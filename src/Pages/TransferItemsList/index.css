@@ -1,0 +1,170 @@
+body{
+    background-color: #a1dae9;
+  }
+
+
+.triangle-top{
+    height: 0;
+    width: 0;
+    border-left: 280px solid #242538;
+    border-right: 280px solid transparent;
+    border-bottom: 280px solid transparent;
+    /* border-top: 100px solid transparent; */
+    /* border: 2px solid black; */
+  }
+
+  .triangle-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-left: 280px solid transparent;
+    /* border-right: 150px solid transparent; */
+    border-bottom: 280px solid #242538;
+    border-top: 280px solid transparent;
+  
+  }
+  .lists-container{
+    height: 500px;
+    width: 60%;
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 20%;
+    border: 2px solid black;
+  }
+  .lists-container p:first-child{
+    color: #242538;
+    /* font-weight: 900; */
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+  }
+  
+  /* Medium screen sizes: 601px to 900px */
+@media only screen and (min-width: 601px)  and (max-width: 800px){
+  .triangle-top{
+    height: 0;
+    width: 0;
+    border-left: 100px solid #242538;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    /* border-top: 100px solid transparent; */
+    /* border: 2px solid black; */
+  }
+
+  .triangle-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-left: 100px solid transparent;
+    /* border-right: 150px solid transparent; */
+    border-bottom: 100px solid #242538;
+    border-top: 100px solid transparent;
+  
+  }
+
+  .lists-container{
+    height: 450px;
+    width: 80%;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 12%;
+    border: 2px solid black;
+  }
+  .lists-container p:first-child{
+    color: #242538;
+    /* font-weight: 900; */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+  }
+}
+
+
+/* Small screens : 0 to 600px */
+@media only screen and (max-width: 600px){
+  .triangle-top{
+    height: 0;
+    width: 0;
+    border-left: 100px solid #242538;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    /* border-top: 100px solid transparent; */
+    /* border: 2px solid black; */
+  }
+
+  .triangle-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-left: 100px solid transparent;
+    /* border-right: 150px solid transparent; */
+    border-bottom: 100px solid #242538;
+    border-top: 100px solid transparent;
+  
+  }
+
+  .lists-container{
+    height: 450px;
+    width: 80%;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 12%;
+    border: 2px solid black;
+  }
+  .lists-container p:first-child{
+    color: #242538;
+    /* font-weight: 900; */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+  }
+}
+
+@media only screen and (min-width: 801px)  and (max-width: 1300px){
+  .triangle-top{
+    height: 0;
+    width: 0;
+    border-left: 150px solid #242538;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    /* border-top: 100px solid transparent; */
+    /* border: 2px solid black; */
+  }
+
+  .triangle-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-left: 150px solid transparent;
+    /* border-right: 150px solid transparent; */
+    border-bottom: 150px solid #242538;
+    border-top: 150px solid transparent;
+  
+  }
+
+  .lists-container{
+    height: 450px;
+    width: 60%;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 18%;
+    border: 2px solid black;
+  }
+  .lists-container p:first-child{
+    color: #242538;
+    /* font-weight: 900; */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+  }
+}
+
+
