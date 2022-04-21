@@ -32,7 +32,7 @@ You may also see any lint errors in the console.
 
 ![Lists_React_2](https://user-images.githubusercontent.com/58857711/164440313-e73de96b-0f3d-4a4d-bf2c-95e2a5408789.png)
 
-### 3) If you add any already added skill then one notification will be shown to you in the form of snackbar that this item already exists.
+### 3) If you blindly click on the add button then one notification will be shown to you in the form of snackbar to remind you that any item is to be selected first before clicking onto that button.
 
 ![Lists_React_3](https://user-images.githubusercontent.com/58857711/164440502-e4796c01-1d2d-4348-8016-6766efab7526.png)
 
